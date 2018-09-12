@@ -39,7 +39,7 @@ def main():
             hist[0] += 1
 
     # Find percent correct/incorrect
-    percent_swap = hist[1] / NUM_TRIALS * 100
+    percent_swap = float(hist[1]) / NUM_TRIALS * 100
     percent_no_swap = 100 - percent_swap
 
     # Print results
